@@ -1,9 +1,4 @@
-//CRUD WEBSERVER
-    //        HTTP        SQL
-//CREATE ---> POST ----> INSERT
-//RETRIEVE ---> GET ---> SELECT
-//UPDATE ---> PUT ----> UPDATE
-//DELETE ----> DELETE ----> DELETE
+require('dotenv').config();
 
 const PORT = 3000;
 const express = require('express');
