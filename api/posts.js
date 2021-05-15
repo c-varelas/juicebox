@@ -9,7 +9,6 @@ const {createPost} = require('../db');
 
 const { updatePost } = require('../db');
 
-const { requireUser } = require('./utils');
 
 
 postsRouter.use((req, res, next) => {
